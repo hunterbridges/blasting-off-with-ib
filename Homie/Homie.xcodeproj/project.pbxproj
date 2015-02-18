@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA933F4B1A8F05C90020EE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA933F4A1A8F05C90020EE10 /* main.m */; };
+		CA933F4E1A8F05C90020EE10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA933F4D1A8F05C90020EE10 /* AppDelegate.m */; };
+		CA933F511A8F05C90020EE10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA933F501A8F05C90020EE10 /* ViewController.m */; };
+		CA933F541A8F05C90020EE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA933F521A8F05C90020EE10 /* Main.storyboard */; };
+		CA933F561A8F05C90020EE10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA933F551A8F05C90020EE10 /* Images.xcassets */; };
+		CA933F591A8F05C90020EE10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA933F571A8F05C90020EE10 /* LaunchScreen.xib */; };
+		CA933F651A8F05C90020EE10 /* HomieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA933F641A8F05C90020EE10 /* HomieTests.m */; };
+		CAD093F51A93DCBA000C739E /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD093F41A93DCBA000C739E /* ChatTableViewController.m */; };
+		CAD093F81A93DD2B000C739E /* ChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD093F71A93DD2B000C739E /* ChatMessageCell.m */; };
+		CAD093FE1A942054000C739E /* EmojiAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD093FD1A942054000C739E /* EmojiAvatarView.m */; };
+		CAD094011A942EE0000C739E /* RoundedRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD094001A942EE0000C739E /* RoundedRectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA933F5F1A8F05C90020EE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA933F3D1A8F05C90020EE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA933F441A8F05C90020EE10;
+			remoteInfo = Homie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA933F451A8F05C90020EE10 /* Homie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA933F491A8F05C90020EE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA933F4A1A8F05C90020EE10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA933F4C1A8F05C90020EE10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA933F4D1A8F05C90020EE10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA933F4F1A8F05C90020EE10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA933F501A8F05C90020EE10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA933F531A8F05C90020EE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA933F551A8F05C90020EE10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA933F581A8F05C90020EE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA933F5E1A8F05C90020EE10 /* HomieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA933F631A8F05C90020EE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA933F641A8F05C90020EE10 /* HomieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomieTests.m; sourceTree = "<group>"; };
+		CAD093F31A93DCBA000C739E /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		CAD093F41A93DCBA000C739E /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		CAD093F61A93DD2B000C739E /* ChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessageCell.h; sourceTree = "<group>"; };
+		CAD093F71A93DD2B000C739E /* ChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessageCell.m; sourceTree = "<group>"; };
+		CAD093FC1A942054000C739E /* EmojiAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiAvatarView.h; sourceTree = "<group>"; };
+		CAD093FD1A942054000C739E /* EmojiAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiAvatarView.m; sourceTree = "<group>"; };
+		CAD093FF1A942EE0000C739E /* RoundedRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedRectView.h; sourceTree = "<group>"; };
+		CAD094001A942EE0000C739E /* RoundedRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedRectView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA933F421A8F05C90020EE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA933F5B1A8F05C90020EE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA933F3C1A8F05C90020EE10 = {
+			isa = PBXGroup;
+			children = (
+				CA933F471A8F05C90020EE10 /* Homie */,
+				CA933F611A8F05C90020EE10 /* HomieTests */,
+				CA933F461A8F05C90020EE10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA933F461A8F05C90020EE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA933F451A8F05C90020EE10 /* Homie.app */,
+				CA933F5E1A8F05C90020EE10 /* HomieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA933F471A8F05C90020EE10 /* Homie */ = {
+			isa = PBXGroup;
+			children = (
+				CA933F4C1A8F05C90020EE10 /* AppDelegate.h */,
+				CA933F4D1A8F05C90020EE10 /* AppDelegate.m */,
+				CA933F4F1A8F05C90020EE10 /* ViewController.h */,
+				CA933F501A8F05C90020EE10 /* ViewController.m */,
+				CA933F521A8F05C90020EE10 /* Main.storyboard */,
+				CA933F551A8F05C90020EE10 /* Images.xcassets */,
+				CA933F571A8F05C90020EE10 /* LaunchScreen.xib */,
+				CA933F481A8F05C90020EE10 /* Supporting Files */,
+				CAD093F31A93DCBA000C739E /* ChatTableViewController.h */,
+				CAD093F41A93DCBA000C739E /* ChatTableViewController.m */,
+				CAD093F61A93DD2B000C739E /* ChatMessageCell.h */,
+				CAD093F71A93DD2B000C739E /* ChatMessageCell.m */,
+				CAD093FC1A942054000C739E /* EmojiAvatarView.h */,
+				CAD093FD1A942054000C739E /* EmojiAvatarView.m */,
+				CAD093FF1A942EE0000C739E /* RoundedRectView.h */,
+				CAD094001A942EE0000C739E /* RoundedRectView.m */,
+			);
+			path = Homie;
+			sourceTree = "<group>";
+		};
+		CA933F481A8F05C90020EE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA933F491A8F05C90020EE10 /* Info.plist */,
+				CA933F4A1A8F05C90020EE10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA933F611A8F05C90020EE10 /* HomieTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA933F641A8F05C90020EE10 /* HomieTests.m */,
+				CA933F621A8F05C90020EE10 /* Supporting Files */,
+			);
+			path = HomieTests;
+			sourceTree = "<group>";
+		};
+		CA933F621A8F05C90020EE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA933F631A8F05C90020EE10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA933F441A8F05C90020EE10 /* Homie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA933F681A8F05C90020EE10 /* Build configuration list for PBXNativeTarget "Homie" */;
+			buildPhases = (
+				CA933F411A8F05C90020EE10 /* Sources */,
+				CA933F421A8F05C90020EE10 /* Frameworks */,
+				CA933F431A8F05C90020EE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homie;
+			productName = Homie;
+			productReference = CA933F451A8F05C90020EE10 /* Homie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA933F5D1A8F05C90020EE10 /* HomieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA933F6B1A8F05C90020EE10 /* Build configuration list for PBXNativeTarget "HomieTests" */;
+			buildPhases = (
+				CA933F5A1A8F05C90020EE10 /* Sources */,
+				CA933F5B1A8F05C90020EE10 /* Frameworks */,
+				CA933F5C1A8F05C90020EE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA933F601A8F05C90020EE10 /* PBXTargetDependency */,
+			);
+			name = HomieTests;
+			productName = HomieTests;
+			productReference = CA933F5E1A8F05C90020EE10 /* HomieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA933F3D1A8F05C90020EE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jawbone;
+				TargetAttributes = {
+					CA933F441A8F05C90020EE10 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CA933F5D1A8F05C90020EE10 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CA933F441A8F05C90020EE10;
+					};
+				};
+			};
+			buildConfigurationList = CA933F401A8F05C90020EE10 /* Build configuration list for PBXProject "Homie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA933F3C1A8F05C90020EE10;
+			productRefGroup = CA933F461A8F05C90020EE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA933F441A8F05C90020EE10 /* Homie */,
+				CA933F5D1A8F05C90020EE10 /* HomieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA933F431A8F05C90020EE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA933F541A8F05C90020EE10 /* Main.storyboard in Resources */,
+				CA933F591A8F05C90020EE10 /* LaunchScreen.xib in Resources */,
+				CA933F561A8F05C90020EE10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA933F5C1A8F05C90020EE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA933F411A8F05C90020EE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD093FE1A942054000C739E /* EmojiAvatarView.m in Sources */,
+				CA933F511A8F05C90020EE10 /* ViewController.m in Sources */,
+				CAD093F81A93DD2B000C739E /* ChatMessageCell.m in Sources */,
+				CAD094011A942EE0000C739E /* RoundedRectView.m in Sources */,
+				CA933F4E1A8F05C90020EE10 /* AppDelegate.m in Sources */,
+				CA933F4B1A8F05C90020EE10 /* main.m in Sources */,
+				CAD093F51A93DCBA000C739E /* ChatTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA933F5A1A8F05C90020EE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA933F651A8F05C90020EE10 /* HomieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA933F601A8F05C90020EE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA933F441A8F05C90020EE10 /* Homie */;
+			targetProxy = CA933F5F1A8F05C90020EE10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA933F521A8F05C90020EE10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA933F531A8F05C90020EE10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA933F571A8F05C90020EE10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA933F581A8F05C90020EE10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA933F661A8F05C90020EE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA933F671A8F05C90020EE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA933F691A8F05C90020EE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Homie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA933F6A1A8F05C90020EE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Homie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA933F6C1A8F05C90020EE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homie.app/Homie";
+			};
+			name = Debug;
+		};
+		CA933F6D1A8F05C90020EE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homie.app/Homie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA933F401A8F05C90020EE10 /* Build configuration list for PBXProject "Homie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA933F661A8F05C90020EE10 /* Debug */,
+				CA933F671A8F05C90020EE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA933F681A8F05C90020EE10 /* Build configuration list for PBXNativeTarget "Homie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA933F691A8F05C90020EE10 /* Debug */,
+				CA933F6A1A8F05C90020EE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA933F6B1A8F05C90020EE10 /* Build configuration list for PBXNativeTarget "HomieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA933F6C1A8F05C90020EE10 /* Debug */,
+				CA933F6D1A8F05C90020EE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA933F3D1A8F05C90020EE10 /* Project object */;
+}
